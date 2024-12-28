@@ -7,9 +7,9 @@ weekday = now.weekday()
 hour = now.hour
 print(now)
 
-sender_email = "bedobenedek5@gmail.com"
-sender_password = "qjqi mtxw gjqp kyot"
-recipient_email = "bedo1benedek@gmail.com"
+sender_email = ""
+sender_password = ""
+recipient_email = ""
 
 if hour == 8:
     with open("quotes.txt", "r") as file:
